@@ -1,0 +1,7 @@
+from eth_account import Account
+
+acct = Account.from_key(
+    "YOUR_PRIVATE_KEY"
+)
+
+print(acct.address)
