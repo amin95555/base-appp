@@ -1,0 +1,8 @@
+gas_price = w3.eth.gas_price
+
+print(
+    w3.from_wei(
+        gas_price,
+        "gwei"
+    )
+)
