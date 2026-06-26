@@ -1,0 +1,4 @@
+contract = w3.eth.contract(
+    address=token_address,
+    abi=ERC20_ABI
+)
