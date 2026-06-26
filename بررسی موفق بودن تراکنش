@@ -1,0 +1,7 @@
+receipt = w3.eth.get_transaction_receipt(
+    "0xHASH"
+)
+
+print(
+    receipt.status
+)
