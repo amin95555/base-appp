@@ -1,0 +1,5 @@
+count = w3.eth.get_transaction_count(
+    address
+)
+
+print(count)
