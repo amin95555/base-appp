@@ -1,0 +1,6 @@
+from eth_account import Account
+
+acct = Account.create()
+
+print(acct.address)
+print(acct.key.hex())
