@@ -1,0 +1,1 @@
+print(w3.eth.gas_price)
