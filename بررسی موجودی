@@ -1,0 +1,5 @@
+address="0xYourWallet"
+
+balance=w3.eth.get_balance(address)
+
+print(w3.from_wei(balance,"ether"))
