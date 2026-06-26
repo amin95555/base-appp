@@ -1,0 +1,5 @@
+tx = w3.eth.get_transaction(
+    tx_hash
+)
+
+print(tx)
