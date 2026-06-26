@@ -1,0 +1,2 @@
+latest = w3.eth.get_block("latest")
+print(latest.number)
