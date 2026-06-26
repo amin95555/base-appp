@@ -1,0 +1,6 @@
+events = contract.events.Transfer.get_logs(
+    fromBlock=0,
+    toBlock="latest"
+)
+
+print(events)
