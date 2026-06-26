@@ -1,0 +1,5 @@
+receipt = w3.eth.wait_for_transaction_receipt(
+    tx_hash
+)
+
+print(receipt.status)
