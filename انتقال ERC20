@@ -1,0 +1,7 @@
+tx = contract.functions.transfer(
+    receiver,
+    amount
+).build_transaction({
+    "from": sender,
+    "nonce": nonce
+})
