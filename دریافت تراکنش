@@ -1,0 +1,3 @@
+tx=w3.eth.get_transaction("0xHASH")
+
+print(tx)
