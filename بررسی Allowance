@@ -1,0 +1,6 @@
+allowance = contract.functions.allowance(
+    owner,
+    spender
+).call()
+
+print(allowance)
