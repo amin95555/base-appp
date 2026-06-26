@@ -1,0 +1,3 @@
+contract.functions.balanceOf(
+ wallet
+).call()
