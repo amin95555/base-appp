@@ -1,0 +1,7 @@
+tx = contract.functions.approve(
+    spender,
+    amount
+).build_transaction({
+    "from": owner,
+    "nonce": nonce
+})
