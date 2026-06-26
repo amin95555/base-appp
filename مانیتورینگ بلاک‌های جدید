@@ -1,0 +1,25 @@
+from web3 import Web3
+import time
+
+w3 = Web3(
+    Web3.HTTPProvider(
+        "https://mainnet.base.org"
+    )
+)
+
+last_block = w3.eth.block_number
+
+while True:
+
+    current = w3.eth.block_number
+
+    if current > last_block:
+
+        print(
+            "New Block:",
+            current
+        )
+
+        last_block = current
+
+    time.sleep(2)
