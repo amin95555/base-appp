@@ -1,0 +1,4 @@
+tx={
+ "to":"0xReceiver",
+ "value":w3.to_wei(0.001,"ether")
+}
