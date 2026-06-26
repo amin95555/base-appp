@@ -1,0 +1,7 @@
+block = w3.eth.get_block(
+    10000000
+)
+
+print(
+    len(block.transactions)
+)
