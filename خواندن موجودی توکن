@@ -1,0 +1,5 @@
+balance = contract.functions.balanceOf(
+    wallet
+).call()
+
+print(balance)
