@@ -1,0 +1,9 @@
+from web3 import Web3
+
+private_key = "YOUR_PRIVATE_KEY"
+
+account = Web3().eth.account.from_key(
+    private_key
+)
+
+print(account.address)
