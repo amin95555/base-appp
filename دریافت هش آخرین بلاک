@@ -1,0 +1,5 @@
+block = w3.eth.get_block("latest")
+
+print(
+    block.hash.hex()
+)
