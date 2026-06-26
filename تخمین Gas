@@ -1,0 +1,7 @@
+gas = w3.eth.estimate_gas({
+    "from": sender,
+    "to": receiver,
+    "value": w3.to_wei(0.001, "ether")
+})
+
+print(gas)
